@@ -5,3 +5,10 @@ __pycache__/
 .DS_Store
 ~$*
 travail_personnel/
+
+# Anciens labos publiés pour le moment. Les autres restent locaux.
+/anciens_labs/*
+!/anciens_labs/README.md
+!/anciens_labs/numpy/
+!/anciens_labs/pandas/
+!/anciens_labs/calcul_scientifique/
