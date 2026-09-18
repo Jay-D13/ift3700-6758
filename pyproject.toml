@@ -1,0 +1,18 @@
+[project]
+name = "ift3700-6758"
+version = "0.1.0"
+description = "Démonstrations de science des données pour IFT3700 et IFT6758"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.5",
+    "scikit-learn>=1.9.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "jupyterlab>=4.6.3",
+]
