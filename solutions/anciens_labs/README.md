@@ -1,6 +1,6 @@
 # Corrigés des anciens laboratoires
 
-Ces sept corrigés historiques sont publiés dans `solutions_ta/`. Les énoncés NumPy, pandas et calcul scientifique sont disponibles dans `anciens_labs/`; les autres énoncés ne sont pas encore publiés. Les éditions et limites de chaque corrigé sont précisées ci-dessous.
+Ces quatre corrigés historiques sont publiés dans `solutions/`, pour les thèmes pandas et calcul scientifique disponibles dans `anciens_labs/`. Aucun corrigé dédié au notebook NumPy abrégé de 2025 n’a été trouvé. Les éditions et limites de chaque corrigé sont précisées ci-dessous.
 
 | Corrigé | Édition | Correspondance / limites |
 |---|---|---|
@@ -8,8 +8,5 @@ Ces sept corrigés historiques sont publiés dans `solutions_ta/`. Les énoncés
 | [calcul_scientifique/en/numpy_scipy_matplotlib_2020_solution.ipynb](calcul_scientifique/en/numpy_scipy_matplotlib_2020_solution.ipynb) | 2020 | Corrigé du cours scientifique anglais complet. |
 | [pandas/fr/pandas_exercices_historique_solution.ipynb](pandas/fr/pandas_exercices_historique_solution.ipynb) | Incertain : nom 2022, titre 2020 | Trois exercices; référence partielle, pas un corrigé complet du pandas français 2025. |
 | [pandas/en/pandas_2020_solution.ipynb](pandas/en/pandas_2020_solution.ipynb) | 2020 | Ancien corrigé conservé comme référence pour pandas 2025; correspondance non garantie. |
-| [sklearn/en/sklearn_2020_solution.ipynb](sklearn/en/sklearn_2020_solution.ipynb) | 2020 | Corrigé anglais; pas un corrigé français 2022. |
-| [validation/en/validation_pca_clustering_2020_solution.ipynb](validation/en/validation_pca_clustering_2020_solution.ipynb) | 2020 | Inclut PCA et clustering; ne correspond pas exactement au cours français 2022. |
-| [keras/en/keras_2020_solution.ipynb](keras/en/keras_2020_solution.ipynb) | 2020 | Corrigé du cours Keras anglais 2020. |
 
 Ne pas considérer les corrigés historiques comme des réponses exactes aux versions plus récentes. Aucun corrigé n’a été inventé pour les supports qui n’en possédaient pas.

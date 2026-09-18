@@ -12,3 +12,10 @@ travail_personnel/
 !/anciens_labs/numpy/
 !/anciens_labs/pandas/
 !/anciens_labs/calcul_scientifique/
+
+# Publier uniquement les corrigés des thèmes disponibles dans anciens_labs.
+/solutions/anciens_labs/*
+!/solutions/anciens_labs/README.md
+!/solutions/anciens_labs/numpy/
+!/solutions/anciens_labs/pandas/
+!/solutions/anciens_labs/calcul_scientifique/

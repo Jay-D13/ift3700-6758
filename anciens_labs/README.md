@@ -24,4 +24,4 @@ Le dépôt conserve un seul projet uv à la racine. Pour reprendre un ancien lab
 
 ## Corrigés
 
-Les [corrigés historiques](../solutions_ta/anciens_labs/README.md) sont également disponibles. Leurs éditions et leurs limites sont indiquées dans leur index : ils ne correspondent pas tous exactement aux cours les plus récents.
+Les [corrigés historiques](../solutions/anciens_labs/README.md) sont également disponibles. Leurs éditions et leurs limites sont indiquées dans leur index : ils ne correspondent pas tous exactement aux cours les plus récents.
