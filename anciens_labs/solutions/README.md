@@ -1,6 +1,6 @@
 # Corrigés des anciens laboratoires
 
-Ces quatre corrigés historiques sont publiés dans `solutions/`, pour les thèmes pandas et calcul scientifique disponibles dans `anciens_labs/`. Aucun corrigé dédié au notebook NumPy abrégé de 2025 n’a été trouvé. Les éditions et limites de chaque corrigé sont précisées ci-dessous.
+Ces quatre corrigés historiques sont publiés dans `anciens_labs/solutions/`, pour les thèmes pandas et calcul scientifique disponibles dans `anciens_labs/`. Aucun corrigé dédié au notebook NumPy abrégé de 2025 n’a été trouvé. Les éditions et limites de chaque corrigé sont précisées ci-dessous.
 
 | Corrigé | Édition | Correspondance / limites |
 |---|---|---|
