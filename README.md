@@ -77,6 +77,7 @@ Ouvrez ensuite le notebook souhaité. Arrêtez le serveur avec `Ctrl+C` dans le 
 | Dossier | Contenu | Ordre conseillé |
 |---|---|---|
 | [Démo 1](demo_1/README.md) | Environnements Python, Git, NumPy, pandas et premier exemple d’apprentissage automatique | Notebooks `00`, `01`, `02`, puis `03` |
+| [Démo 2](demo_2/README.md) | Introduction aux API, acquisition d’un match NHL et nettoyage dans pandas (notebook en anglais) | Notebook `01` |
 | [Anciens laboratoires](anciens_labs/README.md) | Supports des années précédentes, classés par thème et par langue | Consulter le catalogue et les notes de compatibilité |
 | [Tutoriels Git](tutoriels/git/README.md) | Diaporamas français/anglais et notebook pratique | Ressource indépendante |
 | Tutoriels Python ([français](tutoriels/python/fr/python.ipynb), [anglais](tutoriels/python/en/python.ipynb)) | Variables, structures de données, fonctions et exercices | Introduction indépendante |

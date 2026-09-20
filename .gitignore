@@ -6,6 +6,9 @@ __pycache__/
 ~$*
 travail_personnel/
 
+# Données téléchargées et tables générées par les démos.
+data/
+
 # Anciens labos publiés pour le moment. Les autres restent locaux.
 /anciens_labs/*
 !/anciens_labs/README.md
