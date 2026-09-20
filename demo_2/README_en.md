@@ -1,30 +1,30 @@
-# Demo 2: from the NHL API to a pandas table
+# Demo 2: explore an NHL game
 
-This first part introduces the **data acquisition and cleaning** objective of project milestone 1. It guides you through using the API with a single game: Montréal–Carolina, May 21, 2026 (`2025030311`) (🥲).
+This session covers acquisition, cleaning, exploration and visualisation using events from one NHL game.
 
-## Getting started
+- [French notebook](notebooks/fr/00_session.ipynb)
+- [English notebook](notebooks/en/00_session.ipynb)
 
-Follow the [shared setup instructions](../README.md): from the root of `ift3700-6758`, run `uv sync`, then select the kernel from the shared `.venv`.
+## Google Colab
 
-Open the [guided notebook](notebooks/en/01_data_acquisition_and_cleaning.ipynb). It uses pandas and requests, which are declared in the shared environment. You should have some basic familiarity with Jupyter cells, lists, and dictionaries; no API experience is required.
+1. Open [Google Colab](https://colab.research.google.com/) and upload the chosen notebook.
+2. Select a CPU runtime, then **Run all**.
+3. If Colab requests a restart after the `uv` installation, restart the session and run all cells again.
 
-## Session
+## Local execution
 
-| Part | Activity |
-|---|---|
-| A | Understand clients, servers, GET requests, URLs, and JSON responses |
-| B | Download one game, check the response, and save the JSON |
-| C | Reload the file and explore dictionaries and lists |
-| D | Flatten events with `pd.json_normalize` and inspect the table |
-| E | Keep shots and goals, name columns, and check identifiers and missing values |
-| F | Export a CSV and explain the pipeline stages |
+From the repository root:
 
-Two short exercises include expandable answers. The ending distinguishes the completed steps from the remaining project requirements: multiple seasons, player names, empty-net information, and strength situations.
+```sh
+git pull --ff-only
+uv sync
+uv run jupyter lab
+```
 
-## Before the session
+Select the `.venv` kernel, then use **Restart Kernel and Run All**.
 
-Run the notebook once with an internet connection, then restart the kernel and run all cells again. The second run should reuse the local file. The `data/raw` and `data/processed` folders are created relative to the kernel’s working directory; the notebook displays their full paths. They are ignored by Git.
+## Session outline
 
-Keep the downloaded JSON so you can distribute it separately if the API is unavailable in class. Students can place it at the displayed path, then continue with part C. No data files are included in the repository.
+The session starts with an API request and a JSON file, builds a pandas shot table, lets students inspect events on a rink, then creates a replay and a cumulative-shot chart.
 
-During preparation, the API returned **339 events**, including **42 `shot-on-goal` and 8 `goal` events**, giving **50 retained rows**. These numbers are checkpoints for this game, not constants to enforce for every game; the provider may correct its data.
+The first run downloads game `2025030311` into `data/raw`. Later runs reuse this cache. One game illustrates the method but cannot establish conclusions about a team or an entire season.

@@ -1,6 +1,6 @@
 # Démonstrations IFT3700 / IFT6758
 
-Ce dépôt regroupe les démonstrations du cours. Nous y publieront les nouveaux exercices et les corrections au fil des séances.
+Ce dépôt regroupe les démonstrations du cours. Nous y publierons les nouveaux exercices et les corrections au fil des séances.
 
 **Un seul environnement Python pour toutes les démos : exécutez `uv sync` à la racine de `ift3700-6758`.** Les dépendances sont déclarées dans le `pyproject.toml` commun et leurs versions sont enregistrées dans `uv.lock`. Chaque démo utilise la même `.venv` à la racine.
 
@@ -47,7 +47,7 @@ git pull --ff-only
 uv sync
 ```
 
-Faites-le régulièrement, notamment lorsqu'on' annonce une nouvelle démo ou une correction. `git pull` récupère les fichiers publiés sur GitHub; `uv sync` met à jour l’environnement commun si les dépendances ont changé. Il n’est pas nécessaire de cloner à nouveau le dépôt.
+Faites-le régulièrement, notamment lorsqu’on annonce une nouvelle démo ou une correction. `git pull` récupère les fichiers publiés sur GitHub; `uv sync` met à jour l’environnement commun si les dépendances ont changé. Il n’est pas nécessaire de cloner à nouveau le dépôt.
 
 Pour conserver vos réponses sans modifier les notebooks distribués, copiez-les dans un dossier `travail_personnel/` à la racine. Ce dossier est ignoré par Git et utilise le même environnement. Si Git refuse un `pull` parce que vous avez modifié un fichier suivi, sauvegardez votre travail avant de résoudre le conflit; ne supprimez pas vos réponses pour forcer la mise à jour.
 
@@ -77,7 +77,7 @@ Ouvrez ensuite le notebook souhaité. Arrêtez le serveur avec `Ctrl+C` dans le 
 | Dossier | Contenu | Ordre conseillé |
 |---|---|---|
 | [Démo 1](demo_1/README.md) | Environnements Python, Git, NumPy, pandas et premier exemple d’apprentissage automatique | Notebooks `00`, `01`, `02`, puis `03` |
-| [Démo 2](demo_2/README.md) | Introduction aux API, acquisition d’un match NHL et nettoyage dans pandas (notebook en anglais) | Notebook `01` |
+| [Démo 2](demo_2/README.md) | API NHL, nettoyage, exploration interactive et visualisation temporelle | Séance complète : [français](demo_2/notebooks/fr/00_session.ipynb) ou [anglais](demo_2/notebooks/en/00_session.ipynb) |
 | [Anciens laboratoires](anciens_labs/README.md) | Supports des années précédentes, classés par thème et par langue | Consulter le catalogue et les notes de compatibilité |
 | [Tutoriels Git](tutoriels/git/README.md) | Diaporamas français/anglais et notebook pratique | Ressource indépendante |
 | Tutoriels Python ([français](tutoriels/python/fr/python.ipynb), [anglais](tutoriels/python/en/python.ipynb)) | Variables, structures de données, fonctions et exercices | Introduction indépendante |
