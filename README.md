@@ -4,6 +4,8 @@ Ce dépôt regroupe les démonstrations du cours. Nous y publierons les nouveaux
 
 **Un seul environnement Python pour toutes les démos : exécutez `uv sync` à la racine de `ift3700-6758`.** Les dépendances sont déclarées dans le `pyproject.toml` commun et leurs versions sont enregistrées dans `uv.lock`. Chaque démo utilise la même `.venv` à la racine.
 
+L’environnement utilise **Python 3.11**, NumPy 1.26.4 et pandas 1.5.3 pour être compatible avec PandasAI 2.3.2. Pour les parties **RAG et PandasAI** de la démo 2, utilisez `uv sync --group llm` à la place de `uv sync` afin d’ajouter les dépendances des modèles locaux. Les autres démos n’en ont pas besoin.
+
 ## Première installation
 
 Installez **Git** et **uv**. Pour travailler dans votre IDE, installez aussi les extensions **Python** et **Jupyter**.
@@ -77,7 +79,7 @@ Ouvrez ensuite le notebook souhaité. Arrêtez le serveur avec `Ctrl+C` dans le 
 | Dossier | Contenu | Ordre conseillé |
 |---|---|---|
 | [Démo 1](demo_1/README.md) | Environnements Python, Git, NumPy, pandas et premier exemple d’apprentissage automatique | Notebooks `00`, `01`, `02`, puis `03` |
-| [Démo 2](demo_2/README.md) | API NHL, nettoyage, exploration interactive et visualisation temporelle | Séance complète : [français](demo_2/notebooks/fr/00_session.ipynb) ou [anglais](demo_2/notebooks/en/00_session.ipynb) |
+| [Démo 2](demo_2/README.md) | API NHL et nettoyage; exploration et visualisation interactives (français/anglais); RAG et PandasAI avec Qwen local (anglais) | Notebooks `01`, `02`, puis `04` et `05` (optionnels, groupe `llm`) |
 | [Anciens laboratoires](anciens_labs/README.md) | Supports des années précédentes, classés par thème et par langue | Consulter le catalogue et les notes de compatibilité |
 | [Tutoriels Git](tutoriels/git/README.md) | Diaporamas français/anglais et notebook pratique | Ressource indépendante |
 | Tutoriels Python ([français](tutoriels/python/fr/python.ipynb), [anglais](tutoriels/python/en/python.ipynb)) | Variables, structures de données, fonctions et exercices | Introduction indépendante |
