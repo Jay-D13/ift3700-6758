@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **This repository has moved: [github.com/milarobotlearningcourse/data_science](https://github.com/milarobotlearningcourse/data_science)**
+> It is no longer updated and is archived as read-only. Clone the new repository for the latest demos, solutions, and milestones.
+>
+> **Ce dépôt a déménagé.** Consultez le [README en français](README.md) ou allez directement au [nouveau dépôt](https://github.com/milarobotlearningcourse/data_science).
+
 # IFT3700 / IFT6758 Demonstrations
 
 This repository contains the course demonstrations. We will publish new exercises and solutions here as the course progresses.
